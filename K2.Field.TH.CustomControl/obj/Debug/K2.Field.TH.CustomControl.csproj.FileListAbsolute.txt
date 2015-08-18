@@ -1,0 +1,10 @@
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\K2.Field.TH.CustomControl.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\K2.Field.TH.CustomControl.pdb
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\GreatFriends.ThaiBahtText.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\SourceCode.HostClientAPI.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\SourceCode.Workflow.Client.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\SourceCode.Security.Web.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\bin\Debug\Newtonsoft.Json.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\obj\Debug\K2.Field.TH.CustomControl.dll
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\obj\Debug\K2.Field.TH.CustomControl.pdb
+C:\K2 CustomControl\K2.Field.TH.CustomControl\K2.Field.TH.CustomControl\obj\Debug\K2.Field.TH.CustomControl.csprojResolveAssemblyReference.cache

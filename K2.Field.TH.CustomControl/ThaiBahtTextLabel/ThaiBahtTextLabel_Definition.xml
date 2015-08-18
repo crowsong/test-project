@@ -1,0 +1,56 @@
+﻿<ControlType>
+  <Category>Display</Category>
+  <Name>ThaiBahtTextLabel</Name>
+  <Group>K2.Field.TH.CustomControl</Group>
+  <DisplayName>ThaiBaht Text Label</DisplayName>
+  <FullName>K2.Field.TH.CustomControl.ThaiBahtTextLabel.ThaiBahtTextLabel_Control,K2.Field.TH.CustomControl</FullName>
+  <GetPropertyMethod>K2.Field.TH.CustomControl.ThaiBahtTextLabel.getProperty</GetPropertyMethod>
+  <SetPropertyMethod>K2.Field.TH.CustomControl.ThaiBahtTextLabel.setProperty</SetPropertyMethod>
+  <GetValueMethod>K2.Field.TH.CustomControl.ThaiBahtTextLabel.getValue</GetValueMethod>
+  <SetValueMethod>K2.Field.TH.CustomControl.ThaiBahtTextLabel.setValue</SetValueMethod>
+  <GetDefaultValueMethod>K2.Field.TH.CustomControl.ThaiBahtTextLabel.getDefaultValue</GetDefaultValueMethod>
+  <Prop ID="DataType" setFunction="SetDataType" friendlyname="Data Type" type="drop" category="Detail"
+        refreshdisplay="true" getDropItemsFunction="getDataTypesForControl" SelectionValue="" SelectionText="" inputlength="255">
+    <InitialValue>Text</InitialValue>
+  </Prop>
+  <DataTypes>
+    <DataType>Text</DataType>
+  </DataTypes>
+  <Events>
+    <Event>OnChange</Event>
+  </Events>
+  <DefaultEventName>OnChange</DefaultEventName>
+  <Properties>
+    <Prop ID="ControlName" ValidationPattern="\S" ValidationMessage="InvalidName"
+          refreshdisplay="true"
+          DesignerValidate="SourceCode.Forms.Designers.validateControlName"
+          friendlyname="Name" type="string" category="Detail" inputlength="255" />
+    <Prop ID="Value" friendlyname="Value" type="string" category="Detail" />
+    <Prop ID="IsVisible"  friendlyname="Visible" type="bool" category="General" refreshdisplay="true">
+      <Value>true</Value>
+    </Prop>
+    <Prop ID="IsEnable"  friendlyname="Enabled" type="bool" category="General" refreshdisplay="true">
+      <Value>true</Value>
+    </Prop>
+    <Prop ID="ControlExpression" friendlyname="Expression" type="complex" category="General" DesignerSet="SourceCode.Forms.Designers.View.Conditions._showControlCalculation" />
+    <Prop ID="Styles" setFunction="K2.Field.TH.CustomControl.ThaiBahtTextLabel.setStyles"
+          type="complex" DesignerSet="SourceCode.Forms.Designers.View.Styles._showEditStyles" 
+          friendlyname="Styles" category="General" refreshdisplay="true" />
+  </Properties>
+  <Styles>
+    <Style IsDefault="True">
+      <Font>
+        <Family />
+        <Size />
+        <Color />
+        <Style />
+        <Weight />
+      </Font>
+      <Text>
+        <Decoration />
+        <Align />
+      </Text>
+      <Format />
+    </Style>
+  </Styles>
+</ControlType>
